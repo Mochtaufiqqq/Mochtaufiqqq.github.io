@@ -9,17 +9,17 @@ window.onscroll = function () {
   }
 };
 // Hamburger
-const hamburher = document.querySelector("#hamburger");
+const hamburger = document.querySelector("#hamburger");
 const navbar = document.querySelector("#navbar");
 
 hamburger.addEventListener("click", function () {
-  hamburher.classList.toggle("hamburger-active");
+  hamburger.classList.toggle("hamburger-active");
   navbar.classList.toggle("hidden");
 });
 // NavbarFix
 window.addEventListener("click", function (e) {
-  if (e.target != navbar && e.target != hamburher) {
-    hamburher.classList.remove("hamburger-active");
+  if (e.target !== navbar && e.target !== hamburger) {
+    hamburger.classList.remove("hamburger-active");
     navbar.classList.add("hidden");
   }
 });
@@ -40,6 +40,6 @@ darkToggle.addEventListener("click", function () {
 // pindah posisi toggle
 if (localStorage.theme == 'dark' || (!('theme' in localStorage) && window.watchMedia('(prefers-color-scheme: dark)').matches)) {
   darkToggle.checked = true;
-}else{
+} else {
   darkToggle.checked = false;
 }

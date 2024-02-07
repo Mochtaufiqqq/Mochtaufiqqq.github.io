@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moch Taufiq | Portfolio</title>
   <link rel="stylesheet" href="dist/css/final.css" />
- <link rel="stylesheet" href="dist/css/style1.css">
+  <link rel="stylesheet" href="dist/css/style1.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     if (localStorage.theme == 'dark' || (!('theme' in localStorage) && window.watchMedia('(prefers-color-scheme: dark)')
@@ -46,12 +46,15 @@
                   class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Activity</a></li>
               <li class="group"><a href="#portfolio"
                   class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Portfolio</a></li>
+              <li class="group"><a href="#experience"
+                  class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Experiences</a></li>
               <li class="group"><a href="#education"
-                  class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Educations</a></li>
-                  <li class="group"><a href="#skills"
-                    class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Skills</a></li>
-                    <li class="group"><a href="#footer"
-                      class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Contacts</a></li>
+                  class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Educations</a>
+              </li>
+              <li class="group"><a href="#skills"
+                  class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Skills</a></li>
+              <li class="group"><a href="#footer"
+                  class="text-base text-dark py-2 flex mx-8 group-hover:text-primary dark:text-white">Contacts</a></li>
               <li class="flex items-center pl-8">
                 <div class="flex">
                   <span class="mr-2 text-sm text-slate-500">Light</span>
@@ -59,7 +62,6 @@
                   <label for="dark-toggle">
                     <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
                       <div class="toggle-circle h-4 w-5 rounded-full bg-white transition duration-500 ease-in-out">
-
                       </div>
                     </div>
                   </label>
@@ -76,7 +78,7 @@
 
   <!-- Hero -->
   <section id="hero" class="pt-36 dark:bg-dark">
-    <div class="container">
+    <div class="container animate-fade-in">
       <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2">
           <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">
@@ -84,15 +86,15 @@
             <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white">Mochamad Taufiq</span>
           </h1>
           <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-            Web Developer  <span class="text-dark dark:text-white">& Programmer</span>
+            Web Developer <span class="text-dark dark:text-white">& Programmer</span>
           </h2>
           <a href="#footer"
-            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">Contacts
+            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">Contact
             Me</a>
         </div>
         <div class="w-full self-end px-4 lg:w-1/2">
           <div class="mt-10 lg:mt-0 lg:mr-0">
-            <img src="img/fieqqq4.jpg" class="max-w-full mx-auto -z-10" width="400" />
+            <img src="img/profile2.jpeg" class="max-w-full mx-auto -z-10 animate-fade-in" width="400"/>
             </span>
           </div>
         </div>
@@ -108,7 +110,8 @@
       <div class="flex flex-wrap">
         <div class="w-full px-4">
           <h4 class="mx-auto text-center text-primary font-bold text-lg lg:text-4xl mb-16">About Me</h4>
-          <p class="mx-auto text-center font-bold text-dark text-3xl mb-3 max-w-md dark:text-white">I am someone who has an
+          <p class="mx-auto text-left font-bold text-dark text-3xl mb-3 max-w-xl dark:text-white">I am someone who has
+            an
             interest in information technology and has a disciplined, punctual,rule-abiding character. I like to
             try new things that I have never tried.</p>
           <!-- <p class="font-bold text-base text-secondary max-w-xl lg:text-xl dark:text-white">Lorem ipsum dolor sit amet
@@ -130,21 +133,18 @@
       <div class="w-full px-4">
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           <div class="mb-12 p-4 lg:w-1/2">
-            <h3 class="text-white text-semibold text-3xl mt-5 mb-3 dark:text-dark">Internship</h3>
-            <p class="text-white font-medium text-base dark:text-dark">I'm an internship at a professional website developer
-              company PT. Inovindo. Starting from September 2022 to November 2022</p>
+            <h3 class="text-white text-semibold text-3xl mt-5 mb-3 dark:text-dark">Freelancer</h3>
+            <p class="text-white font-medium text-base dark:text-dark">I was active as a freelancer after graduating from vocational school, and worked on several projects or several jobs related to website development and Microsoft Office.
+            </p>
           </div>
-          <!-- <div class="mb-12 p-4 lg:w-1/2">
-            <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Study</h3>
-            <p class="text-secondary font-medium text-base">I studied at Mahaputra High School in the field of software
-              engineering, as a student of course I tried to understand what I learned especially in lessons about
-              creating websites.</p>
-          </div> -->
           <div class="mb-12 p-4 lg:w-1/2">
-            <h3 class="text-white text-bold text-3xl mt-5 mb-3 dark:text-dark">Learn Framework</h3>
-            <p class="text-white font-medium text-base dark:text-dark">I like to find out what I don't know, like learning how to
-              build websites using Laravel, Vue, TailwindCss, Bootstrap and Flowbite. Usually I learn from social
-              media platforms like Youtube, Google, or something. I started this habit since the 11th grade of vocational school, and until now I'm in 2022 I'm still doing this habit.</p>
+            <h3 class="text-white text-bold text-3xl mt-5 mb-3 dark:text-dark">Learn Framework & Programming Languange
+            </h3>
+            <p class="text-white font-medium text-base dark:text-dark">I like to find out what I don't know, like
+              learning how to
+              build websites using Laravel, Vue, TailwindCss,and Bootstrap. And I learning some programming languange like Java and JavaScript Usually I learn from social
+              media platforms like Youtube, Google, or something.I started this habit since the 11th grade of
+              vocational school, and until now I'm in 2024 I'm still doing this habit.</p>
           </div>
         </div>
       </div>
@@ -159,43 +159,37 @@
         <div class="max-w-xl mx-auto text-center mb-16">
           <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
           <h2 class="font-bold text-dark text-2xl mb-4 lg:text-5xl dark:text-white">Project i have made</h2>
-          <p class="font-medium text-md text-secondary">This is a project about inventory information system, made using
-            Laravel 8, Laravel Livewire, Bootstrap, and TailwindCss.</p>
+          <p class="font-medium text-md text-secondary">Here are some of the projects that I have created and developed.</p>
         </div>
       </div>
       <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
         <div class="mb-12 p-4 lg:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <img src="img/pagelogin.jpg" class="w-full h-56 object-cover">
+            <img src="img/superkurir.jpeg" class="w-full h-56 object-cover">
           </div>
-          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Login Page</h3>
-          <p class="text-secondary font-medium text-base">Login display, you can login as admin and as user.</p>
+          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Super Kurir</h3>
+          <p class="mb-5 text-secondary font-medium text-base">It is a website that provides international and domestic courier, cargo, and freight forwarding.</p>
+          <a href="https://superkurir.net/"
+            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">Live View</a>
         </div>
         <div class="mb-12 p-4 lg:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <img src="img/project1.jpg" class="w-full h-56 object-cover">
+            <img src="img/pekat.jpeg" class="w-full h-56 object-cover">
           </div>
-          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Dashboard</h3>
-          <p class="text-secondary font-medium text-base">
-            This is the admin dashboard view.</p>
+          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">LAPEKAT (Layanan Pengaduan Masyarakat)</h3>
+          <p class="mb-5 text-secondary font-medium text-base">
+            A website that provides and facilitates the public to make complaints against local government agencies.</p>
+            <a href="https://github.com/Mochtaufiqqq/Pekat"
+            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">View on Github</a>
         </div>
         <div class="mb-12 p-4 lg:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <img src="img/project2.jpg" class="w-full h-56 object-cover">
+            <img src="img/alumni.jpeg" class="w-full h-56 object-cover">
           </div>
-          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Manage</h3>
-          <p class="text-secondary font-medium text-base">This view is for managing items and can only be accessed by admin.</p>
-        </div>
-        <div class="mb-12 p-4 lg:w-1/2">
-          <div class="rounded-md shadow-md overflow-hidden">
-            <img src="img/projectlogin.jpg" class="w-full h-56 object-cover">
-          </div>
-          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Dark Mode</h3>
-          <p class="text-secondary font-medium text-base">We also provide a dark mode feature.</p>
-        </div>
-        <div class="max-w-full">
-          <a href="https://github.com/Mochtaufiqqq/E_INVENTORY_TAUFIQ"
-            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">Download</a>
+          <h3 class="text-dark text-semibold text-xl mt-5 mb-3 dark:text-white">Tracer Alumni</h3>
+          <p class="mb-5 text-secondary font-medium text-base">TRACER ALUMNI is a website that aims to make it easier for school parties to find out and search for data or newest information on alumni from the school.</p>
+          <a href="https://github.com/Mochtaufiqqq/E-Alumni"
+            class="text-base font-semibold bg-primary py-3 px-5 text-slate-100 rounded-md hover:opacity-80 transition duration-300 ease-in-out">View on Github</a>
         </div>
       </div>
     </div>
@@ -203,65 +197,75 @@
   <!-- End Portfolio -->
 
   <!-- Clients -->
-  <section id="education" class="pt-36 pb-32 bg-slate-700 dark:bg-slate-300">
+  <section id="experience" class="pt-36 pb-32 bg-slate-700 dark:bg-slate-300">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="mx-auto text-center mb-16">
+          <h4 class="text-primary font-bold uppercase text-lg mb-3">Experiences</h4>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center p-7">
+        <ul class="experiences">
+          <!-- Experience -->
+          <li class="green">
+            <div class="where text-white dark:text-dark">Internship (Sept 2022 - Nov 2022)</div>
+            <h3 class="what green text-white dark:text-dark">PT INOVINDO DIGITAL MEDIA (Software Engineering)</h3>
+            <div class="when text-white dark:text-dark">Develop Portfolio Website using TailwindCss</div>
+            <div class="when text-white dark:text-dark">Develop Tracer Alumni Website using Laravel 9</div>
+            <div class="when text-white dark:text-dark">Create Internship Report</div>
+            <!-- <p class="description text-white dark:text-dark">Sept 2022 - Nov 2023</p> -->
+          </li>
+          <ul class="experiences">
+            <!-- Experience -->
+            <li class="green">
+              <div class="where text-white dark:text-dark">Work (Sept 2023 - Jan 2023)</div>
+              <h3 class="what green text-white dark:text-dark">PT TOBADIHON MANDIRI (Desk Call)</h3>
+              <div class="when text-white dark:text-dark">Managing and collecting customers who experience bad credit
+                Collect 5</div>
+              <div class="when text-white dark:text-dark">Create Customer Reports</div>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Experience -->
+
+  <section id="education" class="pt-36 pb-32 dark:bg-slate-800">
     <div class="container">
       <div class="w-full px-4">
         <div class="mx-auto text-center mb-16">
           <h4 class="text-primary font-bold uppercase text-lg mb-3">Educations</h4>
         </div>
       </div>
-      
+
       <div class="flex flex-wrap items-center justify-center">
         <ul class="experiences">
           <!-- Experience -->
           <li class="green">
-            <div class="where text-white dark:text-dark">Vocational High School</div>
-            <h3 class="what green text-white dark:text-dark">SMKS MAHAPUTRA CERDAS UTAMA</h3>
-            <div class="when text-white dark:text-dark">Sofware Engineering</div>
-            <p class="description text-white dark:text-dark">2020 - 2023</p>
-           </li>
-           <ul class="experiences">
+            <div class="where text-dark dark:text-white">Vocational High School</div>
+            <h3 class="what green text-dark dark:text-white">SMKS MAHAPUTRA CERDAS UTAMA</h3>
+            <div class="when text-dark dark:text-white">Sofware Engineering</div>
+            <p class="description text-dark dark:text-white">2020 - 2023</p>
+          </li>
+          <ul class="experiences">
             <!-- Experience -->
             <li class="green">
-              <div class="where text-white dark:text-dark">Junior High School</div>
-              <h3 class="what green text-white dark:text-dark">SMPN 3 BALEENDAH</h3>
-              <div class="when text-white dark:text-dark">2017 - 2020</div>
-             </li>
-            </ul>
+              <div class="where text-dark dark:text-white">Junior High School</div>
+              <h3 class="what green text-dark dark:text-white">SMPN 3 BALEENDAH</h3>
+              <div class="when text-dark dark:text-white">2017 - 2020</div>
+            </li>
           </ul>
-        </div>
-
-        <div class="mx-auto text-center mb-16">
-          <h4 class="text-primary font-bold uppercase text-lg mb-3">Hobbies</h4>
-        </div>
-        
-      <div class="w-full px-4">
-        <div class="flex flex-wrap items-left justify-center">
-          <a href="https://open.spotify.com/user/spg5ouiwbe42fa6bt194lckxr?si=OD1jRMHwRPaish7oNBLcIg&utm_source=copy-link" class="max-w-[120px] mx-4 py-4 grayscale duration-500 hover:grayscale-0 lg:mx-6 xl:mx-8">
-            <img src="img/music4.jpg">
-            <p class="text-white text-semibold text-xl mt-5 mb-3 dark:text-dark">Listen Music
-            </p>
-          </a>
-          <a href="documentaion.html" class="max-w-[120px] mx-4 py-4 grayscale duration-500 hover:grayscale-0 lg:mx-6 xl:mx-8">
-            <img src="img/travel3.jpg">
-            <p class="text-white text-semibold text-xl mt-5 mb-3 dark:text-dark">Travel & Explore</p>
-          </a>
-          <a href="" class="max-w-[120px] mx-4 py-4 grayscale duration-500 hover:grayscale-0 lg:mx-6 xl:mx-8">
-            <img src="img/game1.jpg">
-            <p class="text-white text-semibold text-xl mt-5 mb-3 dark:text-dark">Play Game</p>
-          </a>
-        </div>
+        </ul>
       </div>
     </div>
-    
   </section>
-  <!-- End Clients -->
-
-  <!-- Blog -->
-  <!-- End Blog -->
+  <!-- End Education -->
 
   <!-- Skills -->
-  <section id="skills" class="pt-36 pb-32 dark:bg-slate-800">
+  <section id="skills" class="pt-36 pb-32 bg-slate-700 dark:bg-slate-300">
     <div class="container">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-16">
@@ -273,94 +277,39 @@
       </div>
 
       <div class="container">
-      <div class="flex justify-center flex-wrap">
-        
-        <div class="p-4">
-          <div class="bg-white p-2 rounded-lg shadow-md">
-            <h1 class="text-xl font-bold">Laravel</h1>
-            <div class="mt-4 mb-10">
-              <p class="text-red-600">75%</p>
-              <div class="bg-gray-400 w-64 h-3 rounded-lg mt-2 overflow-hidden">
-                <div class="bg-red-600 w-3/4 h-full rounded-lg shadow-md"></div>
-              </div>
+        <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+          <div class="flex justify-center flex-wrap">
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">PHP</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Intermediate</dd>
             </div>
-            <h3 class="text-xs uppercase">(Beginner)</h3>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">MYSQL</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Intermediate</dd>
+            </div>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">CSS</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Intermediate</dd>
+            </div>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">JavaScript</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Basic</dd>
+            </div>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">HTML</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Expert</dd>
+            </div>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">Microsoft Office</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Intermediate</dd>
+            </div>
+            <div class="p-5 flex flex-col items-center justify-center">
+              <dt class="mb-2 text-2xl font-extrabold">English</dt>
+              <dd class="text-gray-500 dark:text-gray-400">Basic</dd>
+            </div>
           </div>
         </div>
-          
-          <div class="p-4">
-          <div class="bg-white p-2 rounded-lg shadow-md">
-            <h1 class="text-xl font-bold">HTML</h1>
-            <div class="mt-4 mb-10">
-              <p class="text-orange-400">80%</p>
-              <div class="bg-gray-400 w-64 h-3 rounded-lg mt-2 overflow-hidden">
-                <div class="bg-orange-400 w-3/4 h-full rounded-lg shadow-md" style="width: 80%"></div>
-              </div>
-            </div>
-            <h3 class="text-xs uppercase">(Beginner)</h3>
-
-          </div>
-          </div>
-          <div class="p-4">
-            <div class="bg-white p-2 rounded-lg shadow-md">
-              <h1 class="text-xl font-bold">CSS</h1>
-              <div class="mt-4 mb-10">
-                <p class="text-blue-600">50%</p>
-                <div class="bg-gray-400 w-64 h-3 rounded-lg mt-2 overflow-hidden">
-                  <div class="bg-blue-600  w-3/4 h-full rounded-lg shadow-md" style="width: 50%"></div>
-                </div>
-              </div>
-              <h3 class="text-xs uppercase">(Beginner)</h3>
-  
-            </div>
-            </div>
-            <div class="p-4">
-              <div class="bg-white p-2 rounded-lg shadow-md">
-                <h1 class="text-xl font-bold">MYSQL</h1>
-                <div class="mt-4 mb-10">
-                  <p class="text-dark">75%</p>
-                  <div class="bg-gray-400 w-64 h-3 rounded-lg mt-2 overflow-hidden">
-                    <div class="bg-dark w-3/4 h-full rounded-lg shadow-md" style="width: 75%"></div>
-                  </div>
-                </div>
-                <h3 class="text-xs uppercase">(Beginner)</h3>
-    
-              </div>
-              </div>
-            </div>
-            
-
-          </div>
-
-        <!-- <span class="text-base font-medium text-red-700 dark:text-red">Laravel</span>
-        <span class="text-sm font-medium text-red-700 dark:text-red-700">70%</span>
       </div>
-      <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-red-600">
-        <div class="bg-red-600 h-2.5 rounded-full" style="width: 70%"></div>
-      </div>
-      <div class="flex justify-between mb-1">
-        <span class="text-base font-medium text-yellow-700 dark:text-yellow-700">HTML</span>
-        <span class="text-sm font-medium text-yellow-700 dark:text-yellow-700">89%</span>
-      </div>
-      <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-yellow-600">
-        <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 89%"></div>
-      </div>
-      <div class="flex justify-between mb-1">
-        <span class="text-base font-medium text-blue-700 dark:text-blue-700">CSS</span>
-        <span class="text-sm font-medium text-blue-700 dark:text-blue-700">50%</span>
-      </div>
-      <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-blue-700">
-        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
-      </div>
-      <div class="flex justify-between mb-1">
-        <span class="text-base font-medium text-gray-700 dark:text-dark">MYSQL</span>
-        <span class="text-sm font-medium text-gray-700 dark:text-dark">80%</span>
-      </div>
-      <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-dark-700">
-        <div class="bg-gray-600 h-2.5 rounded-full dark:bg-dark" style="width: 80%"></div>
-      </div>
-
-    </div> -->
   </section>
   <!-- End Skills -->
 
@@ -371,8 +320,8 @@
         <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
           <h2 class="font-bold text-4xl text-white mb-5">Contact Me</h2>
           <p>mhmdtaufiq3@gmail.com</p>
-          <p>Bandung Regency,Baleendah Subdistrict,Rancamanyar Village,RT 05/15</p>
-          <p>+62 858-6036-0163</p>
+          <p>Bandung Regency,Indonesia</p>
+          <p>+62 951-488-8223</p>
 
         </div>
         <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
@@ -391,7 +340,9 @@
             <li><a href="#about" class="inline-block text-base hover:text-primary">About Me</a></li>
             <li><a href="#activity" class="inline-block text-base hover:text-primary">Activity</a></li>
             <li><a href="#portfolio" class="inline-block text-base hover:text-primary">Portfolio</a></li>
-            <li><a href="#hobbies" class="inline-block text-base hover:text-primary">Hobbies</a></li>
+            <li><a href="#experience" class="inline-block text-base hover:text-primary">Experiences</a></li>
+            <li><a href="#education" class="inline-block text-base hover:text-primary">Educations</a></li>
+            <!-- <li><a href="#hobbies" class="inline-block text-base hover:text-primary">Hobbies</a></li> -->
             <li><a href="#skills" class="inline-block text-base hover:text-primary">Skills</a></li>
             <li><a href="#footer" class="inline-block text-base hover:text-primary">Contact</a></li>
           </ul>
@@ -399,7 +350,6 @@
       </div>
       <div class="w-full pt-10 border-t border-slate-800">
         <div class="flex items-center justify-center mb-10">
-          <!-- Youtube -->
           <!-- Facebook -->
           <a href="https://www.facebook.com/profile.php?id=100030496655410"
             class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 hover:border-primary hover:bg-primary text-white"><svg
@@ -417,11 +367,10 @@
                 d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
             </svg></a>
           <!-- Twitter -->
-          
+
         </div>
-        <p class="font-medium text-slate-500 text-center text-sm"><span
-            class="text-primary font-semibold">Made with</span><span
-            class="font-semibold text-sky-500">TailwindCSS</span></p>
+        <p class="font-medium text-slate-500 text-center text-sm"><span class="text-primary font-semibold">Made
+            with</span><span class="font-semibold text-sky-500">TailwindCSS</span></p>
       </div>
     </div>
   </footer>

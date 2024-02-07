@@ -28,3 +28,16 @@ ul.experiences li {
      /* last li's line */
     height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
  }
+
+ @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1.3s ease-in-out;
+  }
